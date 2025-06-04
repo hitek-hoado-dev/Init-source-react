@@ -16,11 +16,30 @@
 
 # Clone the repository
 
-git clone https://datnt23.myvnc.com:8483/SeaFarer/crew-web.git
+git clone https://github.com/hitek-hoado-dev/Init-source-react.git
 
 # Navigate to the project folder
 
 cd project
+
+# Add `.env` file
+
+Tạo file `.env` trong thư mục gốc dự án với nội dung như sau:
+
+```
+VITE_API_URL=
+VITE_WHISHLIST_URL=
+VITE_PANORAMA_URL=
+VITE_PLAYLIST_URL=
+VITE_EQUIPMENT_URL=
+VITE_COUPON_URL=
+VITE_QA_URL=
+VITE_PROFILE_URL=
+VITE_SOCKET_URL=
+VITE_COOKIE_KEY_SECRET=
+VITE_BUILD=
+VITE_SUPPORT_LANGUAGE=true/false
+```
 
 # Install dependencies
 
