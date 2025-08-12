@@ -112,9 +112,7 @@ const Customers = () => {
 			<FilterTable<CustomerType>
 				title="Customers"
 				columns={columns}
-				// useQueryHook={customerHooks.useGetListCustomers}
-        // gắn url api sau
-        useQueryHook={useMockCustomersQuery}
+				useQueryHook={customerHooks.useGetListCustomers}
 				tableInfo={{
 					// actions: [
 					//   {
